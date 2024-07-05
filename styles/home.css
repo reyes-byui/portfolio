@@ -1,0 +1,249 @@
+
+
+/* fonts */
+h1, h2, h3, h4, h5 {
+    font-family: "Shippori Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+  /* colors */
+:root {
+    --primary-color: #1a1a1a;
+    --secondary-color:#ffffff;
+    --accent1-color: #A2A2A2;
+    --accent2-color: #E7A376;
+}
+
+html,
+body {
+    background-color:#ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* CONTACTS HERE */
+.contacts {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.scrolling-text {
+    display: flex;
+    animation: scroll 18s linear infinite;
+}
+
+.contacts a {
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #000000;
+    font-size: 10pt;
+    text-align: center;
+    padding: 0 50px;
+}
+.contacts a:hover {
+    text-decoration: overline;
+    color:#A2A2A2;
+}
+/* SECTION HERE */
+.frontpage {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.left, .right {
+    width: 10%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.left h3, .right h3 {
+    writing-mode:vertical-lr;
+    font-size: 25pt;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 1pt;
+}   
+
+    
+.right h3 {
+    transform: rotate(0deg);
+}
+
+/* CENTER */
+
+.center {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center; 
+    width: 40%;
+    text-align: center;
+    padding:0;
+}
+
+.center h3 {
+    font-size: 25pt;
+    color: #000000;
+    margin: 0;
+    letter-spacing: 1pt;
+    animation: slideInFromTop 3s ease-in-out;
+    padding-bottom: 20px;
+}
+
+.center img {
+    max-width: 100%;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    border-top-right-radius: 45%;
+    border-top-left-radius: 45%;
+    object-fit: cover;
+    aspect-ratio: 4 / 5;
+    animation: fadeIn 1s ease-in;
+    padding: 1px;
+}
+
+
+.center h4{
+    font-size: 60pt;
+    color: #000000;
+    margin: 0;
+    animation: slideInFromBottom 1s ease-in;
+}
+
+.center a{
+    font-size: 12pt;
+    color:#000000;
+    text-decoration: none;
+    display: block; 
+    margin: 0 auto; 
+    width: fit-content;
+}
+
+.center a:hover{
+    color:#A2A2A2;
+    text-decoration: overline;
+}
+
+
+/* ANIMATION KEYFRAMES HERE */
+/* for images */
+@keyframes scroll {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start with opacity 0 (fully transparent) */
+    }
+    to {
+        opacity: 0.7; /* End with opacity 1 (fully visible) */
+    }
+}
+
+@keyframes slideInFromTop {
+    from {
+        transform: translateY(-100%); /* Start from above the viewport */
+    }
+    to {
+        transform: translateY(0); /* End at the original position */
+    }
+}
+
+@keyframes slideInFromBottom {
+    from {
+        transform: translateY(100%); /* Start from below the viewport */
+    }
+    to {
+        transform: translateY(0); /* End at the original position */
+    }
+}
+
+
+/* MOBIDLE VIEW */
+
+@media (max-width: 768px) {
+   /* CONTACTS HERE */
+.contacts a {
+    font-size: 8pt;
+    letter-spacing: 1pt;
+    padding: 40px;
+}
+
+/* SECTION HERE */
+.frontpage {
+    padding: 20px;
+}
+.left, .right {
+    width: 5%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.left h3, .right h3 {
+    font-size: 14pt;
+    letter-spacing: 2pt;
+}   
+/* CENTER */
+
+.center {
+    width: 80%;
+}
+
+.center h3 {
+    font-size: 10pt;
+    margin: auto;
+    letter-spacing: 1pt;
+    animation: slideInFromTop 3s ease-in-out;
+}
+
+.center img {
+    padding: 1px;
+    margin: 0;
+    aspect-ratio: 4 / 6;
+    font-size: 12pt;
+    color:#000000;
+    text-decoration: none;
+    display: block; 
+    margin: 0 auto; 
+    width: fit-content;
+}
+
+.center h4{
+    font-size: 25pt;
+}
+
+.center a{
+    font-size: 9pt;
+    letter-spacing: 1pt;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center; 
+}
+}
