@@ -1018,8 +1018,9 @@ p, a{
         display: block;
     }
     .menu-toggle{
-        font-size: 16pt;
-        font-weight: 600;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+        font-size: 20pt;
     }
     .menunav .menu-links {
         display: none;
