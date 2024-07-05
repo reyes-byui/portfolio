@@ -11,7 +11,10 @@
   .mockupSlides {
     display: none;
   }
-  
+  a{
+    font-family: "Shippori Mincho", serif;
+    font-weight: 100;
+}
   /* Add a pointer when hovering over the thumbnail images */
   .cursor {
     cursor: pointer;
