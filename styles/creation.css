@@ -171,7 +171,7 @@ header{
 }
 #mottohere p{
     color: #000000;
-    font-size: 9pt;
+    font-size: 10pt;
     text-align: justify;
     padding: 0 50px;
     padding-left: 100px;
@@ -416,7 +416,7 @@ header{
   #photography2 {
     width: 70%;
     position: relative; 
-    padding:0;
+    padding:50px 0;
     margin:0;
   }
   
@@ -538,6 +538,7 @@ header{
     align-items: center;
     background-color: #f0f0f0;
     height: auto; 
+    padding: 50px 0;
 }
 
 /* Styling for .filmingh3 */
@@ -612,7 +613,7 @@ header{
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-color:#171717;
+    background-color:#070707;
 }
 
 .windowd h5{
@@ -676,14 +677,11 @@ header{
     border-top-right-radius: 45%;
     border-top-left-radius: 45%;
     object-fit: cover;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 4 / 5;
     margin: 0;
     justify-content: center;
     align-content: center;
     align-items: center;
-    border-width: 0.5pt;
-    border-style: solid;
-    border-color: white;
 }
 /* 3D----------------------------------------- */
 * {
@@ -740,13 +738,13 @@ header{
     display: flex;
     flex-direction: row;
     max-width: 100%;
-    padding: 80px 0;
+    padding: 100px 0;
     margin:0;
     background: black;
 }
 
 .mockup1{
-    width: 30%;
+    width: 50%;
     align-content: center;
 }
 
@@ -757,8 +755,7 @@ header{
     
 }
 .mockup2{
-    width: 70%;
-
+    width: 50%;
 }
 * {
     box-sizing: border-box;
@@ -1297,7 +1294,7 @@ p, a{
     #filmingh4 {
         flex: none;
         text-align: right;
-        padding: 20px 30px;
+        padding: 50px 30px;
         box-sizing: border-box;
         justify-content: center;
         align-items: center;
@@ -1319,7 +1316,7 @@ p, a{
         flex-direction: column;
         height:auto;
         margin: 0;
-        padding: 30px 0;
+        padding: 60px 0;
     }
     
     .windowd h5{
@@ -1361,6 +1358,14 @@ p, a{
         width: 40%;
         padding:0;
         margin:0;
+        aspect-ratio: 4 / 3;
+    }
+
+    .windowd video {
+        width: 40%;
+        padding:0;
+        margin:0;
+        aspect-ratio: 4 / 3;
     }
     /* 3D----------------------------------------- */
     /* Styling for .visual section */
@@ -1387,8 +1392,7 @@ p, a{
         display: flex;
         flex-direction: row;
         max-width: 100%;
-        padding: 20px 0;
-        padding-top: 50px;
+        padding: 60px 0;
     }
     
     .mockup1{
