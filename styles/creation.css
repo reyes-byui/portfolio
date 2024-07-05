@@ -10,6 +10,10 @@ p {
     line-height: 200%;
 }
 
+a{
+    font-family: "Shippori Mincho", serif;
+    font-weight: 100;
+}
   /* colors */
 :root {
     --primary-color: #1a1a1a;
