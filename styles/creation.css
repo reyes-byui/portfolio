@@ -1060,7 +1060,6 @@ p, a{
         margin: 0;
         height: auto;
         overflow: hidden;
-        row-gap: 20px;
     }
 
     #videohere {
@@ -1077,7 +1076,7 @@ p, a{
 
     #mottohere {
         width:100%;
-        padding: 30px;
+        padding: 50px 30px;
         margin: 0;
         display: flex;
         flex-direction: column;
