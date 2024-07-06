@@ -45,6 +45,10 @@ header{
     align-items: center;
     align-content: center;
     background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 .bigname a{
     text-decoration: none;
