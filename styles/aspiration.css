@@ -126,13 +126,14 @@ header{
     max-width: 100%;
     margin: 0;
     padding: 0;
-    object-fit: fill;
 }
 
 .aspirebanner img{
     aspect-ratio: 10 / 4;
     width: 100%;
     object-fit: cover;
+    margin:0;
+    padding:0;
 }
 
 .objectives {
