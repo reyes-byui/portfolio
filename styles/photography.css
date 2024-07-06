@@ -324,7 +324,7 @@ header{
         font-size: 14pt;
     }
     /* main */
-    .labrise{
+    .gallery{
         flex-direction: column;
         column-gap: 0px;
         max-width: 100%;
