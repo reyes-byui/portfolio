@@ -58,7 +58,9 @@ body {
     max-width: 100%;
     justify-content: center;
     align-items: center;
+    align-content: center;
     padding: 50px;
+    margin: auto;
 }
 
 .left, .right {
@@ -275,15 +277,6 @@ body {
     color:#A2A2A2;
 }
 /* SECTION HERE */
-.frontpage {
-    display: flex;
-    flex-direction: row;
-    max-width: 100%;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-    height: auto;
-}
 
 .left, .right {
     width: 20%;
