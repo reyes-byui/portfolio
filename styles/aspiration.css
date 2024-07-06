@@ -432,19 +432,19 @@ p, a{
         aspect-ratio: 10 / 7;
     }
     .objectives {
-        padding: 50px;
+        padding: 20px;
     }
     .objectives h4{    
         font-size: 16pt;
     }
     .objectives p{
-        font-size: 9pt;
+        font-size: 10pt;
     }
     /* LEFT LIFESTYLE WINDOW */
     .lifestyle {
         max-width: 100%;
         flex-direction: column;
-        padding: 50px;
+        padding: 50px 20px;
         align-items: center;
         justify-content: center;
     }
@@ -473,14 +473,14 @@ p, a{
         width: 100%;
     }
     .lifestyletext p{
-        font-size: 9pt;
+        font-size: 10pt;
         padding-left: 0;
     }
     
     /* RIGHT LIFESTYLE WINDOW */
     .lifestyle2{
         flex-direction: column;
-        padding: 50px;
+        padding: 50px 20px;
     }
     .lifestyletext2{
         width: 100%;
@@ -506,7 +506,7 @@ p, a{
         padding-bottom: 30px;
     }
     .lifestyletext2 p{
-        font-size: 9pt;
+        font-size: 10pt;
         padding-right: 0px;
         padding-bottom:20px;
     }
