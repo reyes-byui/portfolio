@@ -579,7 +579,7 @@ header{
 .texthere p{
     font-size: 10pt;
     color: #ffffff;
-    padding: 50px 20px;
+    padding: 50px;
 }
 /* video banner */
 .banner {
@@ -632,14 +632,14 @@ header{
 .angelstext p {
     color:#ffffff;
     font-size: 10pt;
-    padding-top:50px 20px;
+    padding-top:50px;
     text-align: justify;
 }
 .workouts{
     display: flex;
     max-width: 100%;
     flex-direction: column;
-    padding: 50px 20px;
+    padding: 50px;
 }
 .workouttext h4{
     font-size: 20pt;
