@@ -416,3 +416,93 @@ header{
         text-decoration: none;;
     }
 }
+
+/* ---------------IPAD VIEW-------------------------- */
+/* IPAD VIEW */
+@media (min-width: 768px) and (max-width: 1024px){
+    /* header nav */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header{
+        
+        display: flex;
+        max-width: 100%;
+        flex-direction: row;
+        padding:30px;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background-color: black;
+    }
+    
+    .homelogo {
+        width: 10%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .homelogo img{
+        width: 100%;
+        padding: 20px;
+        align-items: center;
+    }
+    .homelogo img:hover{
+        background-color: #333;
+    }
+    .menunav {
+        width: 70%;
+        align-items: left;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .menunav .menu-toggle {
+        display: none;
+        background-color: #000;
+        color: #A2A2A2;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .menunav .menu-links {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .menunav a:hover {
+        text-decoration: overline;
+        color:#E7A376;
+    }
+    
+    .bigname {
+        width: 20%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .bigname a{
+        text-decoration: none;
+    }
+    
+    .menunav a{
+        text-decoration: none;
+        color:#A2A2A2;
+        letter-spacing: 1.2pt;
+        padding: 0 30px;
+        text-align: center;
+    }
+    
+    .bigname h3{
+        font-size: 25pt;
+        color: #ffffff;
+        text-align: center;
+    }
+}
