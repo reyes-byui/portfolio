@@ -3,7 +3,7 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #231f20;
+        fill: #ffffff;
         font-family: Harrington, Harrington;
         font-size: 149.24px;
       }
@@ -14,13 +14,13 @@
 
       .cls-2, .cls-3 {
         fill: none;
-        stroke: #000;
+        stroke: #ffffff;
         stroke-miterlimit: 10;
       }
 
       .cls-4 {
-        fill: #000;
-        stroke-width: 0px;
+        fill: #ffffff;
+        stroke-width: 1pt;
       }
 
       .cls-3 {
