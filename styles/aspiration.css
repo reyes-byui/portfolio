@@ -374,19 +374,28 @@ p, a{
         padding:20px;
         margin: 0;
     }
+    
     .homelogo {
         width: 6%;
     }
+    
     .homelogo img{
         width: 100%;
         padding: 0;
         align-items: center;
     }
+   
     .menunav {
         position: relative;
     }
+    
     .menunav .menu-toggle {
         display: block;
+    }
+    .menu-toggle{
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+        font-size: 20pt;
     }
     .menunav .menu-links {
         display: none;
@@ -394,22 +403,27 @@ p, a{
         width: 100%;
         background-color: black;
     }
+
     .menunav .menu-links a {
         padding: 10px 0;
         border-top: 1px solid #333;
     }
+
     .menunav .menu-links.show {
         display: flex;
     }
+    
     .bigname {
         width: 6%;
         justify-content: center;
         align-items: center;
         align-content: center;
     }
+    
     .menunav a{
         font-size: 9pt;
     }
+    
     .bigname h3{
         font-size: 14pt;
     }
@@ -447,7 +461,7 @@ p, a{
         border-top-right-radius: 45%;
         border-top-left-radius: 45%;
         object-fit: cover;
-        aspect-ratio: 6 / 5;
+        aspect-ratio: 4 / 4;
         margin:0;
         padding-bottom:20px;
         
@@ -481,7 +495,7 @@ p, a{
         width: 100%;
         border-top-right-radius: 45%;
         border-top-left-radius: 45%;
-        aspect-ratio: 6 / 5;
+        aspect-ratio: 4 / 4;
         margin:0;
         padding-bottom:20px;
     }
