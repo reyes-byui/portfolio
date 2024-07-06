@@ -88,7 +88,7 @@ header{
 
 .menunav a:hover {
     text-decoration: overline;
-    color:#ffffff;
+    color:#E7A376;
 }
 
 .bigname {
@@ -511,12 +511,14 @@ header{
 
 .menunav .menu-toggle {
     display: block;
+    font-weight: 700;
+    font-size: 18pt;
+    color: white;
 }
-.menu-toggle{
-    font-family: "Open Sans", sans-serif;
-    font-weight: 500;
-    font-size: 20pt;
+.menu-toggle:hover{
+    color:#E7A376;
 }
+
 .menunav .menu-links {
     display: none;
     flex-direction: column;
