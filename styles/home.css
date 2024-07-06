@@ -51,6 +51,12 @@ body {
     text-decoration: overline;
     color:#A2A2A2;
 }
+main{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin:auto;
+}
 /* SECTION HERE */
 .frontpage {
     display: flex;
