@@ -181,7 +181,7 @@ header{
     margin:0;
     letter-spacing: 1.5pt;
 }
-/* Angels Section----------------- */
+/* Windows Section----------------- */
 * {
     margin: 0;
     padding: 0;
@@ -262,6 +262,8 @@ header{
 /* TRAVEL + NEW PLACES GALLERY */
 .newplaces {
     position: relative;
+    padding:0;
+    margin:0;
   }
 .titleplace h4{
     color: #A2A2A2;
@@ -829,137 +831,376 @@ font-size: 8pt;
 /* IPAD VIEW */
 @media (min-width: 768px) and (max-width: 1024px){
     /* header nav */
-    
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    header{
-        
-        display: flex;
-        max-width: 100%;
-        flex-direction: row;
-        padding:30px;
-        margin: 0;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        background-color: black;
-    }
-    
-    .homelogo {
-        width: 10%;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-    }
-    
-    .homelogo img{
-        width: 100%;
-        padding: 20px;
-        align-items: center;
-    }
-    .homelogo img:hover{
-        background-color: #333;
-    }
-    .menunav {
-        width: 70%;
-        align-items: left;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .menunav .menu-toggle {
-        display: none;
-        background-color: #000;
-        color: #A2A2A2;
-        padding: 10px 20px;
-        font-size: 16px;
-        border: none;
-        cursor: pointer;
-    }
-    
-    .menunav .menu-links {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .menunav a:hover {
-        text-decoration: overline;
-        color:#E7A376;
-    }
-    
-    .bigname {
-        width: 20%;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-    }
-    .bigname a{
-        text-decoration: none;
-    }
-    
-    .menunav a{
-        text-decoration: none;
-        color:#A2A2A2;
-        letter-spacing: 1.2pt;
-        padding: 0 30px;
-        text-align: center;
-    }
-    
-    .bigname h3{
-        font-size: 25pt;
-        color: #ffffff;
-        text-align: center;
-    }
 
-    /* FOOTER */
-    .footer {
-        display: flex;
-        max-width: 100%;
-        height: auto;
-        flex-direction: row;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
     
-    .copyright{
-        width: 60%;
-        height: auto;
-        align-content: center;
-        justify-content: center;
-        padding: 30px;
-        margin:0;
-    }
-    
-    .copyrighthere h4{
-        font-size: 9pt;
-        color: #ffffff;
-        padding-left: 20px;
-        letter-spacing: 1pt;
-        margin:0;
-    }
-    .icons img{
-        width: 12%;
-        padding: 0 10px;
-    }
-    
-    .nickname{
-        width: 40%;
-        height: auto;
-        align-content: center;
-        padding: 0 40px;
-    }
-    
-    .nickname a{
-        font-size: 30pt;
-        color: #ffffff;
-        text-align: right;
-        text-decoration: none;
-    }
-    .nickname a:hover{
-        color:#E7A376;
-        text-align: right;
-        text-decoration: overline;;
-    }
-    
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    padding:30px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+}
+
+.homelogo {
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.homelogo img{
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+}
+.homelogo img:hover{
+    background-color: #333;
+}
+.menunav {
+    width: 70%;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.menunav .menu-toggle {
+    display: none;
+    background-color: #000;
+    color: #A2A2A2;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.menunav .menu-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.menunav a:hover {
+    text-decoration: overline;
+    color:#E7A376;
+}
+
+.bigname {
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.bigname a{
+    text-decoration: none;
+}
+
+.menunav a{
+    text-decoration: none;
+    color:#A2A2A2;
+    letter-spacing: 1.2pt;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.bigname h3{
+    font-size: 25pt;
+    color: #ffffff;
+    text-align: center;
+}
+/* MAIN ----------------------------------------*/
+/* headerbanner */
+.title{
+    padding-top: 170px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+.title h4{
+    color:#ffffff;
+    text-align: left;
+    font-size: 16pt;
+    width: 50%;
+    padding-left: 100px;
+}
+.headerimg{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    padding: 100px 50px;
+    column-gap: 50px;;
+    background-color: #000;
+}
+
+.imghere{
+    width: 70%;
+    object-fit: cover;
+}
+.imghere video{
+    width:100%;
+}
+.texthere{
+    width: 30%;
+}
+.texthere p{
+    font-size: 9pt;
+    color: #ffffff;
+    text-align: justify;
+}
+/* video banner */
+.banner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    max-width: 100%;
+    background-color: #ffffff;
+}
+.banner img{
+    width: 100%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 6 / 4;
+}
+.banner p{
+    width: 100%;
+    font-size: 8pt;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: #9b9b9b;
+    padding-top: 15px;
+    margin:0;
+    letter-spacing: 1.5pt;
+}
+/* Angels Section----------------- */
+
+.thewindow{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: #000;
+    margin:0;
+    padding: 100px;
+}
+.thewindow h4{
+    color:#A2A2A2;
+    font-size: 16pt;
+    padding-bottom:30px
+}
+
+.windows {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    column-gap: 50px;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.window {
+    flex: 1 1 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.window img {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    object-fit: cover;
+}
+.thewindowtext p {
+    color:#ffffff;
+    font-size: 10pt;
+    padding-top:50px;
+    text-align: justify;
+}
+.workouts{
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 100px;
+}
+.workouttext h4{
+    font-size: 16pt;
+    color:#A2A2A2;
+    padding-bottom: 50px;
+}
+.workoutimg{
+    display: block;
+    flex-direction: row;
+    max-width: 100%;
+
+}
+.workoutimg img {
+    float: left;
+    padding-bottom: 50px;
+}
+.workoutimg1 img {
+    float: right;
+    padding-bottom: 50px;;
+}
+
+/* TRAVEL + NEW PLACES GALLERY */
+.newplaces {
+    position: relative;
+    padding: 50px 0px;
+  }
+.titleplace h4{
+    color: #A2A2A2;
+    font-size: 16pt;
+    padding-bottom: 30px;
+}
+  .mockupSlides {
+    display: none;
+  }
+  .cursor {
+    cursor: pointer;
+  }
+
+  .mockupSlides img{
+    aspect-ratio: 10 / 5;
+  }
+  .left,
+  .right {
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  .right {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .left:hover,
+  .right:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .number {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 45%;
+  }
+  .captionhere {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 10pt ;
+    background-color: #000;
+  }
+  .thumbnail:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .thumbnailshere {
+    float: left;
+    width: 16.66%;
+  }
+
+  .thumbnailshere img{
+    aspect-ratio: 6 / 4;
+  }
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+.home{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin:0;
+    padding: 50px 0;
+}
+
+.home h4{
+    color: #A2A2A2;
+    font-size: 30px;
+    padding: 50px 0;
+    align-content: center;
+}
+
+.home img{
+    width: 100%;
+    padding: 0;
+    margin:0;
+  
+}
+/* FOOTER */
+.footer {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    flex-direction: row;
+}
+
+.copyright{
+    width: 60%;
+    height: auto;
+    align-content: center;
+    justify-content: center;
+    padding: 30px;
+    margin:0;
+}
+
+.copyrighthere h4{
+    font-size: 9pt;
+    color: #ffffff;
+    padding-left: 20px;
+    letter-spacing: 1pt;
+    margin:0;
+}
+.icons img{
+    width: 12%;
+    padding: 0 10px;
+}
+
+.nickname{
+    width: 40%;
+    height: auto;
+    align-content: center;
+    padding: 0 40px;
+}
+
+.nickname a{
+    font-size: 30pt;
+    color: #ffffff;
+    text-align: right;
+    text-decoration: none;
+}
+.nickname a:hover{
+    color:#E7A376;
+    text-align: right;
+    text-decoration: overline;;
+}
+
 }
