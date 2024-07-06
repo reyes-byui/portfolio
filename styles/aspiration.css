@@ -559,7 +559,7 @@ p, a{
 }
     /* END OF MOBILE VIEW */
 
-    /* ---------------IPAD VIEW-------------------------- */
+/* ---------------IPAD VIEW-------------------------- */
 /* IPAD VIEW */
 @media (min-width: 768px) and (max-width: 1024px){
     /* header nav */
@@ -647,7 +647,7 @@ p, a{
         color: #ffffff;
         text-align: center;
     }
-    
+
     /* FOOTER */
     .footer {
         display: flex;
@@ -696,5 +696,4 @@ p, a{
         text-decoration: overline;;
     }
     
-
 }
