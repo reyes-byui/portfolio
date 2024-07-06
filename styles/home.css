@@ -1,5 +1,4 @@
 
-
 /* fonts */
 h1, h2, h3, h4, h5 {
     font-family: "Shippori Mincho", serif;
@@ -183,7 +182,7 @@ body {
 }
 
 
-/* MOBIDLE VIEW */
+/* -----------------MOBIDLE VIEW-------------------------- */
 
 @media (max-width: 768px) {
    /* CONTACTS HERE */
@@ -246,4 +245,124 @@ body {
     align-content: center;
     text-align: center; 
 }
+}
+/* ---------------IPAD VIEW-------------------------- */
+/* IPAD VIEW */
+@media (min-width: 768px) and (max-width: 1024px){
+    /* CONTACTS HERE */
+.contacts {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.scrolling-text {
+    display: flex;
+    animation: scroll 18s linear infinite;
+}
+
+.contacts a {
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #000000;
+    font-size: 10pt;
+    text-align: center;
+    padding: 0 50px;
+}
+.contacts a:hover {
+    text-decoration: overline;
+    color:#A2A2A2;
+}
+/* SECTION HERE */
+.frontpage {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: auto;
+}
+
+.left, .right {
+    width: 20%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.left h3, .right h3 {
+    writing-mode:vertical-lr;
+    font-size: 20pt;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 1pt;
+}   
+
+    
+.right h3 {
+    transform: rotate(0deg);
+}
+
+/* CENTER */
+
+.center {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center; 
+    width: 60%;
+    text-align: center;
+    padding:0;
+}
+
+.center h3 {
+    font-size: 20pt;
+    color: #000000;
+    margin: 0;
+    letter-spacing: 1pt;
+    animation: slideInFromTop 3s ease-in-out;
+    padding-bottom: 20px;
+}
+
+.center img {
+    max-width: 100%;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    border-top-right-radius: 45%;
+    border-top-left-radius: 45%;
+    object-fit: cover;
+    aspect-ratio: 4 / 5;
+    animation: fadeIn 1s ease-in;
+    padding: 1px;
+}
+
+
+.center h4{
+    font-size: 50pt;
+    color: #000000;
+    margin: 0;
+    animation: slideInFromBottom 1s ease-in;
+}
+
+.center a{
+    font-size: 12pt;
+    color:#000000;
+    text-decoration: none;
+    display: block; 
+    margin: 0 auto; 
+    width: fit-content;
+}
+
+.center a:hover{
+    color:#A2A2A2;
+    text-decoration: overline;
+}
+
 }
