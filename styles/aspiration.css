@@ -129,7 +129,7 @@ header{
     display: flex;
     max-width: 100%;
     margin: 0;
-    padding: 0;
+    padding-top: 100px;
 }
 
 .aspirebanner img{
@@ -432,7 +432,10 @@ p, a{
     .bigname h3{
         font-size: 14pt;
     }
-    /* main body */    
+    /* main body */   
+    .aspirebanner{
+        padding-top: 90px;
+    }
     .aspirebanner img{
         aspect-ratio: 10 / 7;
     }
@@ -651,7 +654,9 @@ p, a{
         color: #ffffff;
         text-align: center;
     }
-
+    .aspirebanner{
+        padding-top: 100px;
+    }
     /* FOOTER */
     .footer {
         display: flex;

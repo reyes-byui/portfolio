@@ -119,7 +119,7 @@ header{
 /* MAIN ----------------------------------------*/
 /* headerbanner */
 .title{
-    padding-top: 100px;
+    padding-top: 150px;
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -556,14 +556,14 @@ header{
 /* main body */
 /* headerbanner */
 .title{
-    padding: 20px;
+    padding-top: 100px;
     padding-right: 50px;;
 }
 .title h4{
     color:#ffffff;
     text-align: left;
-    font-size: 16pt;
-    padding-left: 0px;
+    font-size: 12pt;
+    padding: 20px 20px;
     letter-spacing: 0.5pt;
 }
 .headerimg{

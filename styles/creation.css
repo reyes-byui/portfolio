@@ -50,6 +50,7 @@ header{
     top: 0;
     width: 100%;
     z-index: 1000;
+    box-sizing: border-box;
 }
 
 .homelogo {
@@ -123,7 +124,7 @@ header{
 .mymotto {
     display: flex;
     flex-direction: row;
-    padding: 0;
+    padding-top: 100px;
     margin: 0;
     background-color: #ffffff;
     width: 100%;
@@ -1065,6 +1066,7 @@ p, a{
         display: flex;
         max-width: 100%;
         flex-direction: column;
+        padding-top: 70px;
         margin: 0;
         height: auto;
         overflow: hidden;
@@ -1631,7 +1633,7 @@ p, a{
     .mymotto {
         display: flex;
         flex-direction: row;
-        padding: 0;
+        padding-top: 100px;
         margin: 0;
         background-color: #ffffff;
         width: 100%;
