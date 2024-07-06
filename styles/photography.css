@@ -23,9 +23,9 @@ a{
 
 html,
 body {
-    background-color:#ffffff;
+    background-color:#1a1a1a;
     margin: 0;
-    padding: 0;
+    padding:0;
 }
 
 /* header nav */
@@ -125,13 +125,14 @@ header{
     text-align: center;
 }
 /* main */
-.labrise{
+.gallery{
     display:flex;
     flex-direction: row;
     column-gap: 50px;
     max-width: 100%;
     margin:0;
     padding:50px;
+    padding-top: 100px;
     background-color:#1a1a1a;
 }
 #left{
@@ -333,13 +334,14 @@ header{
         flex-direction: column;
         column-gap: 0px;
         max-width: 100%;
-        padding:20px;
+        padding:30px;
+        padding-top:100px;
     }
     #left{
         max-width: 100%;
     }
     #left h4{
-        font-size: 24pt;
+        font-size: 20pt;
         letter-spacing: 1pt;
     }
     #left p{
@@ -509,4 +511,57 @@ header{
         color: #ffffff;
         text-align: center;
     }
+
+    .gallery{
+        padding-top: 100px;
+    }
+
+    /* FOOTER */
+    .footer {
+        display: flex;
+        max-width: 100%;
+        height: auto;
+        flex-direction: row;
+    }
+    
+    .copyright{
+        width: 60%;
+        height: auto;
+        align-content: center;
+        justify-content: center;
+        padding: 30px;
+        margin:0;
+    }
+    
+    .copyrighthere h4{
+        font-size: 9pt;
+        color: #ffffff;
+        padding-left: 20px;
+        letter-spacing: 1pt;
+        margin:0;
+    }
+    .icons img{
+        width: 12%;
+        padding: 0 10px;
+    }
+    
+    .nickname{
+        width: 40%;
+        height: auto;
+        align-content: center;
+        padding: 0 40px;
+    }
+    
+    .nickname a{
+        font-size: 30pt;
+        color: #ffffff;
+        text-align: right;
+        text-decoration: none;
+    }
+    .nickname a:hover{
+        color:#E7A376;
+        text-align: right;
+        text-decoration: overline;;
+    }
+
 }
