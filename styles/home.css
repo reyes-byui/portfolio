@@ -267,14 +267,12 @@ body {
     display: block;
     white-space: nowrap;
     text-decoration: none;
-    color: #000000;
     font-size: 10pt;
     text-align: center;
     padding: 0 50px;
 }
 .contacts a:hover {
     text-decoration: overline;
-    color:#A2A2A2;
 }
 /* SECTION HERE */
 
@@ -290,7 +288,6 @@ body {
 .left h3, .right h3 {
     writing-mode:vertical-lr;
     font-size: 20pt;
-    color: #000000;
     text-align: center;
     letter-spacing: 1pt;
 }   
@@ -316,7 +313,6 @@ body {
 
 .center h3 {
     font-size: 20pt;
-    color: #000000;
     margin: 0;
     letter-spacing: 1pt;
     animation: slideInFromTop 3s ease-in-out;
@@ -339,14 +335,12 @@ body {
 
 .center h4{
     font-size: 50pt;
-    color: #000000;
     margin: 0;
     animation: slideInFromBottom 1s ease-in;
 }
 
 .center a{
     font-size: 12pt;
-    color:#000000;
     text-decoration: none;
     display: block; 
     margin: 0 auto; 
@@ -354,7 +348,6 @@ body {
 }
 
 .center a:hover{
-    color:#A2A2A2;
     text-decoration: overline;
 }
 
