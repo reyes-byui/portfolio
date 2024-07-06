@@ -444,7 +444,7 @@ p, a{
     .lifestyle {
         max-width: 100%;
         flex-direction: column;
-        padding: 50px 20px;
+        padding: 50px;
         align-items: center;
         justify-content: center;
     }
@@ -480,7 +480,7 @@ p, a{
     /* RIGHT LIFESTYLE WINDOW */
     .lifestyle2{
         flex-direction: column;
-        padding: 50px 20px;
+        padding: 50px;
     }
     .lifestyletext2{
         width: 100%;
