@@ -655,8 +655,112 @@ p, a{
         text-align: center;
     }
     .aspirebanner{
-        padding-top: 100px;
+        padding-top: 130px;
     }
+    .aspirebanner img{
+        aspect-ratio: 10 / 4;
+        width: 100%;
+        object-fit: cover;
+        margin:0;
+        padding:0;
+    }
+    
+    .objectives {
+        padding: 50px 100px;
+    }
+    .objectives h4{
+        color:#A2A2A2;
+        font-size: 22pt;
+        padding-bottom: 30px;
+    }
+    
+    .objectives p{
+        color: white;
+        font-size: 10pt;
+        text-align: justify;
+    }
+    /* LEFT LIFESTYLE WINDOW */
+    .lifestyle {
+        display: flex;
+        max-width: 100%;
+        flex-direction: row;
+        padding: 100px 100px;
+        margin:0;
+        background-color: #000;
+        align-items: center;
+        justify-content: center;
+    }
+    .lifestylewindow{
+        width: 50%;
+        object-fit: cover;
+    }
+    .lifestyletext{
+        width: 50%;
+        
+    }
+    .lifestylewindow img{
+        width: 80%;
+        border-top-right-radius: 45%;
+        border-top-left-radius: 45%;
+        object-fit: cover;
+        aspect-ratio: 4 / 5;
+    }
+    .lifestyletext h4{
+        color:#A2A2A2;
+        font-size: 20pt;
+        text-align: right;
+        padding-bottom: 30px;
+    }
+    .lifestyletext p{
+        color: white;
+        font-size: 10pt;
+        text-align: justify;
+        padding-left: 50px;
+    }
+    
+    /* RIGHT LIFESTYLE WINDOW */
+    .lifestyle2{
+        display: flex;
+        max-width: 100%;
+        flex-direction: row;
+        padding: 100px 100px;
+        margin:0;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+    }
+    .lifestyletext2{
+        width: 50%;
+        align-content: left;
+    }
+    .lifestylewindow2 {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        object-fit: cover;
+    }
+    
+    .lifestylewindow2 img {
+        width: 80%;
+        border-top-right-radius: 45%;
+        border-top-left-radius: 45%;
+        object-fit: cover;
+        aspect-ratio: 4 / 5;
+    }
+    
+    .lifestyletext2 h4{
+        color:#000;
+        font-size: 20pt;
+        text-align: left;
+        padding-bottom: 30px;
+    }
+    .lifestyletext2 p{
+        color:#000;
+        font-size: 10pt;
+        text-align: justify;
+        padding-right: 50px;
+    }
+    
     /* FOOTER */
     .footer {
         display: flex;
