@@ -556,7 +556,7 @@ header{
 .title h4{
     color:#ffffff;
     text-align: left;
-    font-size: 12pt;
+    font-size: 16pt;
     padding-left: 0px;
     letter-spacing: 0.5pt;
 }
@@ -577,13 +577,13 @@ header{
     padding: 0;
 }
 .texthere p{
-    font-size: 8pt;
+    font-size: 10pt;
     color: #ffffff;
-    padding: 50px;
+    padding: 50px 20px;
 }
 /* video banner */
 .banner {
-    padding: 50px;
+    padding: 100px 50px;
     max-width: 100%;
 }
 .banner img{
@@ -594,8 +594,9 @@ header{
     object-fit: cover;
 }
 .banner p{
-    font-size: 6pt;
+    font-size: 5pt;
     text-align: center;
+
 }
 /* Angels Section----------------- */
 .angelswindow{
@@ -603,7 +604,7 @@ header{
     flex-direction: column;
     max-width: 100%;
     margin:0;
-    padding: 50px;
+    padding: 100px 50px;
 }
 .angelswindow h4{
     font-size: 16pt;
@@ -621,24 +622,24 @@ header{
     flex: none;
 }
 .window img {
-    width: 70%;
-    aspect-ratio: 4 / 4;
+    width: 80%;
+    aspect-ratio: 4 / 6;
     border-top-left-radius: 45%;
     border-top-right-radius: 45%;
     object-fit: cover;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 .angelstext p {
     color:#ffffff;
-    font-size: 9pt;
-    padding-top:20px 50px;
+    font-size: 10pt;
+    padding-top:50px 20px;
     text-align: justify;
 }
 .workouts{
     display: flex;
     max-width: 100%;
     flex-direction: column;
-    padding: 50px;
+    padding: 50px 20px;
 }
 .workouttext h4{
     font-size: 20pt;
