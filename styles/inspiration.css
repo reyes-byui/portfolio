@@ -187,7 +187,7 @@ header{
     padding: 0;
     box-sizing: border-box;
 }
-.angelswindow{
+.thewindow{
     display: flex;
     flex-direction: column;
     max-width: 100%;
@@ -195,7 +195,7 @@ header{
     margin:0;
     padding: 100px;
 }
-.angelswindow h4{
+.thewindow h4{
     color:#A2A2A2;
     font-size: 30pt;
     padding-bottom:100px
@@ -227,7 +227,7 @@ header{
     border-top-right-radius: 45%;
     object-fit: cover;
 }
-.angelstext p {
+.thewindowtext p {
     color:#ffffff;
     font-size: 10pt;
     padding-top:50px;
@@ -557,13 +557,12 @@ header{
 /* headerbanner */
 .title{
     padding-top: 100px;
-    padding-right: 50px;;
 }
 .title h4{
     color:#ffffff;
-    text-align: left;
-    font-size: 12pt;
-    padding: 20px 20px;
+    text-align: center;
+    font-size: 10pt;
+    padding: 20px;
     letter-spacing: 0.5pt;
 }
 .headerimg{
@@ -577,6 +576,8 @@ header{
 .imghere video{
     width:100%;
     aspect-ratio: 4 / 2;
+    padding: 0;
+    margin:0;
 }
 .texthere{
     width: 100%;
@@ -602,18 +603,21 @@ header{
 .banner p{
     font-size: 5pt;
     text-align: center;
+    width: 70%;
+    margin:auto;
 
 }
 /* Angels Section----------------- */
-.angelswindow{
+.thewindow{
     display: flex;
     flex-direction: column;
     max-width: 100%;
     margin:0;
     padding: 100px 50px;
 }
-.angelswindow h4{
-    font-size: 16pt;
+.thewindow h4{
+    font-size: 12pt;
+    margin: 0 40px;
     text-align: center;
     padding-bottom:50px;
 }
@@ -623,6 +627,9 @@ header{
     max-width: 100%;
     column-gap: 100px;
     height: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 .window {
     flex: none;
@@ -633,9 +640,9 @@ header{
     border-top-left-radius: 45%;
     border-top-right-radius: 45%;
     object-fit: cover;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
-.angelstext p {
+.thewindowtext p {
     color:#ffffff;
     font-size: 10pt;
     padding-top:50px;
@@ -645,10 +652,11 @@ header{
     display: flex;
     max-width: 100%;
     flex-direction: column;
-    padding: 50px;
+    padding: 50px 30px;
+    margin:auto;
 }
 .workouttext h4{
-    font-size: 20pt;
+    font-size: 12pt;
     padding-bottom: 50px;
 }
 .workoutimg{
@@ -660,14 +668,14 @@ header{
 }
 .workoutimg1 img {
     float: right;
-    padding-bottom: 50px;;
+    padding-bottom: 50px;
 }
 /* TRAVEL + NEW PLACES GALLERY */
 .newplaces {
     position: relative;
 }
 .titleplace h4{
-    font-size: 18pt;
+    font-size: 12pt;
     padding-bottom: 50px;
 }
 .mockupSlides img{
@@ -708,7 +716,7 @@ font-size: 8pt;
     padding: 0;
 }
 .home h4{
-    font-size: 20pt;
+    font-size: 14pt;
     padding: 50px 0;
     align-content: center;
 }
