@@ -70,6 +70,7 @@ header{
     width: 30%;
     padding: 20px;
     align-items: center;
+    border-radius: 15%;
 }
 .homelogo img:hover{
     background-color: #333;
@@ -84,13 +85,15 @@ header{
 .menunav .menu-toggle {
     display: none;
     background-color: #000;
-    color: #A2A2A2;
+    color:white;
     padding: 10px 20px;
     font-size: 16px;
     border: none;
     cursor: pointer;
 }
-
+.menu-toggle:hover{
+    color: #A2A2A2;
+}
 .menunav .menu-links {
     display: flex;
     flex-direction: row;
@@ -98,7 +101,7 @@ header{
 
 .menunav a:hover {
     text-decoration: overline;
-    color:#E7A376;
+    color:white;
 }
 
 .bigname {
@@ -1009,12 +1012,12 @@ p, a{
     }
     
     .homelogo {
-        width: 8%;
+        width: 15%;
     }
     
     .homelogo img{
-        width: 100%;
-        padding: 0;
+        width: 80%;
+        padding: 5px;
         align-items: center;
     }
    
@@ -1026,17 +1029,12 @@ p, a{
         display: block;
         font-weight: 700;
         font-size: 18pt;
-        color: white;
-    }
-    .menu-toggle:hover{
-        color:#E7A376;
     }
 
     .menunav .menu-links {
         display: none;
         flex-direction: column;
         width: 100%;
-        background-color: black;
     }
 
     .menunav .menu-links a {
@@ -1565,15 +1563,15 @@ p, a{
     }
     
     .homelogo {
-        width: 10%;
+        width: 8%;
         justify-content: center;
         align-items: center;
         align-content: center;
     }
     
     .homelogo img{
-        width: 100%;
-        padding: 20px;
+        width: 70%;
+        padding:   10px;
         align-items: center;
     }
     .homelogo img:hover{
@@ -1588,8 +1586,6 @@ p, a{
     
     .menunav .menu-toggle {
         display: none;
-        background-color: #000;
-        color: #A2A2A2;
         padding: 10px 20px;
         font-size: 16px;
         border: none;
@@ -1599,11 +1595,6 @@ p, a{
     .menunav .menu-links {
         display: flex;
         flex-direction: row;
-    }
-    
-    .menunav a:hover {
-        text-decoration: overline;
-        color:#E7A376;
     }
     
     .bigname {
@@ -1618,7 +1609,6 @@ p, a{
     
     .menunav a{
         text-decoration: none;
-        color:#A2A2A2;
         letter-spacing: 1.2pt;
         padding: 0 30px;
         text-align: center;
@@ -1626,7 +1616,6 @@ p, a{
     
     .bigname h3{
         font-size: 25pt;
-        color: #ffffff;
         text-align: center;
     }
     

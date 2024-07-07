@@ -70,6 +70,7 @@ header{
     width: 30%;
     padding: 20px;
     align-items: center;
+    border-radius: 15%;
 }
 .homelogo img:hover{
     background-color: #333;
@@ -84,11 +85,15 @@ header{
 .menunav .menu-toggle {
     display: none;
     background-color: #000;
-    color: #A2A2A2;
+    color: #ffffff;
     padding: 10px 20px;
     font-size: 16px;
     border: none;
     cursor: pointer;
+}
+
+.menu-toggle:hover{
+    color:#717171;
 }
 
 .menunav .menu-links {
@@ -98,7 +103,7 @@ header{
 
 .menunav a:hover {
     text-decoration: overline;
-    color:#E7A376;
+    color:white;
 }
 
 .bigname {
@@ -275,12 +280,12 @@ header{
 }
 
 .homelogo {
-    width: 8%;
+    width: 15%;
 }
 
 .homelogo img{
-    width: 100%;
-    padding: 0;
+    width: 80%;
+    padding: 5px;
     align-items: center;
 }
 
@@ -292,11 +297,8 @@ header{
     display: block;
     font-weight: 700;
     font-size: 18pt;
-    color: white;
 }
-.menu-toggle:hover{
-    color:#E7A376;
-}
+
 .menunav .menu-links {
     display: none;
     flex-direction: column;
@@ -314,7 +316,7 @@ header{
 }
 
 .bigname {
-    width: 6%;
+    width: 10%;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -447,20 +449,18 @@ header{
 }
 
 .homelogo {
-    width: 10%;
+    width: 8%;
     justify-content: center;
     align-items: center;
     align-content: center;
 }
 
 .homelogo img{
-    width: 100%;
-    padding: 20px;
+    width: 70%;
+    padding:   10px;
     align-items: center;
 }
-.homelogo img:hover{
-    background-color: #333;
-}
+
 .menunav {
     width: 70%;
     align-items: left;
@@ -470,8 +470,6 @@ header{
 
 .menunav .menu-toggle {
     display: none;
-    background-color: #000;
-    color: #A2A2A2;
     padding: 10px 20px;
     font-size: 16px;
     border: none;
@@ -481,11 +479,6 @@ header{
 .menunav .menu-links {
     display: flex;
     flex-direction: row;
-}
-
-.menunav a:hover {
-    text-decoration: overline;
-    color:#E7A376;
 }
 
 .bigname {

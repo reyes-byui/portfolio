@@ -65,6 +65,7 @@ header{
     width: 30%;
     padding: 20px;
     align-items: center;
+    border-radius: 15%;
 }
 .homelogo img:hover{
     background-color: #333;
@@ -380,15 +381,15 @@ p, a{
     }
     
     .homelogo {
-        width: 8%;
+        width: 15%;
     }
     
     .homelogo img{
-        width: 100%;
-        padding: 0;
+        width: 80%;
+        padding: 5px;
         align-items: center;
     }
-   
+        
     .menunav {
         position: relative;
     }
@@ -588,16 +589,14 @@ p, a{
         align-content: center;
         background-color: black;
     }
-    
     .homelogo {
         width: 10%;
         justify-content: center;
         align-items: center;
         align-content: center;
     }
-    
     .homelogo img{
-        width: 100%;
+        width: 70%;
         padding: 20px;
         align-items: center;
     }

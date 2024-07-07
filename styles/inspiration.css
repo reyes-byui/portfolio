@@ -64,6 +64,7 @@ header{
     width: 30%;
     padding: 20px;
     align-items: center;
+    border-radius: 15%;
 }
 .homelogo img:hover{
     background-color: #333;
@@ -502,15 +503,14 @@ header{
 }
 
 .homelogo {
-    width: 8%;
+    width: 15%;
 }
 
 .homelogo img{
-    width: 100%;
-    padding: 0;
+    width: 80%;
+    padding: 5px;
     align-items: center;
 }
-
 .menunav {
     position: relative;
 }
@@ -851,19 +851,16 @@ header{
 }
 
 .homelogo {
-    width: 10%;
+    width: 8%;
     justify-content: center;
     align-items: center;
     align-content: center;
 }
 
 .homelogo img{
-    width: 100%;
-    padding: 20px;
+    width: 70%;
+    padding:   10px;
     align-items: center;
-}
-.homelogo img:hover{
-    background-color: #333;
 }
 .menunav {
     width: 70%;
