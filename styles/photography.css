@@ -374,7 +374,7 @@ header{
     width: 100%;
 }
 
-/*footer  */
+/* footer */
 .footer {
     display: flex;
     flex-direction: row;
@@ -391,6 +391,7 @@ header{
     padding: 0;
     margin:0;
 }
+
 .copyrighthere h4{
     font-size: 5pt;
     color: #ffffff;
@@ -398,7 +399,7 @@ header{
     letter-spacing: 1pt;
 }
 .icons img{
-    padding: 5px;
+    padding: 2px;
 }
 
 .icons img:hover{
@@ -420,6 +421,7 @@ header{
     text-decoration: none;;
 }
 }
+
 
 /* ---------------IPAD VIEW-------------------------- */
 /* IPAD VIEW */
@@ -518,19 +520,19 @@ header{
     max-width: 100%;
     margin:0;
     padding:50px;
-    padding-top: 100px;
+    padding-top: 200px;
     background-color:#1a1a1a;
 }
 #left{
     max-width: 40%;
 }
 #left h4{
-    font-size: 65pt;
+    font-size: 35pt;
     letter-spacing: 1pt;
     color:#717171;
 }
 #left1 h4{
-    font-size: 45pt;
+    font-size: 25pt;
     letter-spacing: 1pt;
     color:#717171;
 }
@@ -538,7 +540,7 @@ header{
 #left p{
     font-size: 9pt;
     text-align: justify;
-    padding: 150px 0;
+    padding: 50px 0;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -582,11 +584,12 @@ header{
     margin:auto;
     font-size: 9pt;
     text-align: justify;
-    padding-top: 300px;
+    padding-top: 100px;
 }
 #contacts img{
     padding: 20px 0;
 }
+
 #right{
     display: flex;
     max-width: 60%;
