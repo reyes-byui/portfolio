@@ -445,9 +445,11 @@ p, a{
     }
     .objectives h4{    
         font-size: 16pt;
+        padding: 30px;
     }
     .objectives p{
         font-size: 10pt;
+        padding: 30px 30px;
     }
     /* LEFT LIFESTYLE WINDOW */
     .lifestyle {
