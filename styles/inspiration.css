@@ -119,14 +119,14 @@ header{
 
 /* MAIN ----------------------------------------*/
 /* headerbanner */
-.title{
+.page-title{
     padding-top: 150px;
     align-content: center;
     justify-content: center;
     align-items: center;
     background-color: #000;
 }
-.title h4{
+.page-title h4{
     color:#ffffff;
     text-align: left;
     font-size: 25pt;
@@ -406,88 +406,6 @@ header{
     text-align: right;
     text-decoration: overline;;
 }
-/* ---------------------------------------------- */
-/* ANIMATION KEYFRAMES */
-/* images slidein from bottom */
-img {
-    animation: slideInFromBottom 1s ease-in forwards;
-}
-@keyframes slideInFromBottom {
-    from {
-        transform: translateY(30%);
-    }
-    to {
-        transform: translateY(0);
-    }
-}
-
-/* video fadeinfrom right */
-video {
-    animation: fadeInFromRight 1s ease-in forwards;
-}
-@keyframes fadeInFromRight {
-    from {
-      opacity: 0;
-      transform: translateX(100%);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-}
-/* h3 slidein from left */
-h3{
-    animation: slideInFromLeft 1s ease-in forwards;
-}
-@keyframes slideInFromLeft {
-    from {
-        transform: translateX(-30%);
-    }
-    to {
-        transform: translateX(0);
-    }
-}
-/* h4 slidein from right */
-h4{
-    animation: slideInFromRight 1s ease-in forwards;
-}
-@keyframes slideInFromRight {
-    from {
-        transform: translateX(30%);
-    }
-    to {
-        transform: translateX(0);
-    }
-}
-/* h5 fadein from top */
-h5{
-    animation: fadeInFromTop 1s ease-in forwards;
-}
-@keyframes fadeInFromTop {
-    from {
-        opacity: 0;
-        transform: translateY(0);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(20px);
-    }
-}
-/* p  fadein from bottom */
-p, a{
-    animation: fadeInFromBottom 1s ease-in forwards;
-}
-@keyframes fadeInFromBottom {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-/* end of animation ----------------------------------------*/
 
 /* MOBILE VIEW */
 @media (max-width: 768px) {
@@ -557,10 +475,10 @@ header{
 }
 /* main body */
 /* headerbanner */
-.title{
+.page-title{
     padding-top: 100px;
 }
-.title h4{
+.page-title h4{
     color:#ffffff;
     text-align: center;
     font-size: 10pt;
