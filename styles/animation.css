@@ -1,5 +1,5 @@
 /* ANIMATION KEYFRAMES */
-
+/* for videos and images ---------------------------------- */
 .fade-in {
     opacity: 0;
     transition: opacity 2s ease-in-out;
@@ -9,7 +9,7 @@
     opacity: 1;
 }
 
-/* h3 slidein from left */
+/* for h3 titles -------------------------------------------- */
 
 .title {
     opacity: 0; 
@@ -29,9 +29,13 @@
     }
 }
 
-/* h4 slidein from right */
-h4{
+/* for h4 titles */
+.h4 {
+    opacity: 0;
+}
+.h4-animation.visible{
     animation: slideInFromRight 1s ease-in forwards;
+    opacity: 1;
 }
 @keyframes slideInFromRight {
     from {
@@ -39,34 +43,6 @@ h4{
     }
     to {
         transform: translateX(0);
-    }
-}
-/* h5 fadein from top */
-h5{
-    animation: fadeInFromTop 1s ease-in forwards;
-}
-@keyframes fadeInFromTop {
-    from {
-        opacity: 0;
-        transform: translateY(0);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(20px);
-    }
-}
-/* p  fadein from bottom */
-p, a{
-    animation: fadeInFromBottom 1s ease-in forwards;
-}
-@keyframes fadeInFromBottom {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
     }
 }
 

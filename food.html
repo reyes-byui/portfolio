@@ -7,6 +7,7 @@
         <meta name="description" content="Each image tells a story of culinary craftsmanship and sensory delight, inviting viewers to savor with their eyes before indulging their taste buds.">
         <met name="author" content="Red Reyes"></met>
         <link rel="stylesheet" href="styles/photography.css">
+        <link rel="stylesheet" href="styles/animation.css">
 <!-- google fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +15,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">
 <!-- scripts -->
         <script src="scripts/photography.js"></script>
+        <script src="scripts/lazyload.js"></script>
     </head>
 
     <body>
@@ -38,7 +40,7 @@
         <main>
             <div class="gallery">
                 <div id="left1">
-                    <h4>LET'S DINE</h4>
+                    <h4 class="title title-animation">LET'S DINE</h4>
                     <p>Food photography transforms the art of dining into a visual feast, capturing every delectable detail from the vibrant colors of fresh produce to the intricate textures of gourmet creations. Each image tells a story of culinary craftsmanship and sensory delight, inviting viewers to savor with their eyes before indulging their taste buds. </p>
 
                     <div id="role">
@@ -55,12 +57,18 @@
                 </div>
 
                 <div id="right">
-                    <img src="images/lavoguerestaurant10.jpg">
-                    <img src="images/lavoguerestaurant7.jpg">
-                    <img src="images/lavoguerestaurant.jpg">
-                    <img src="images/lvdining2.jpg">
-                    <img src="images/lvdining4.jpg">
-                    <img src="images/lvdining3.jpg">                    
+                    <img 
+                    class="fade-in" src="images/lavoguerestaurant10.jpg">
+                    <img 
+                    class="fade-in" src="images/lavoguerestaurant7.jpg">
+                    <img 
+                    class="fade-in" src="images/lavoguerestaurant.jpg">
+                    <img 
+                    class="fade-in" src="images/lvdining2.jpg">
+                    <img 
+                    class="fade-in" src="images/lvdining4.jpg">
+                    <img 
+                    class="fade-in" src="images/lvdining3.jpg">                    
                 </div>
             </div>
             
