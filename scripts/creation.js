@@ -33,7 +33,6 @@ for (i = 0; i < acc.length; i++) {
 
 
   // PHOTOGRAPHY GALLERY-----------------------------
-  // PHOTOGRAPHY GALLERY:
 let slideIndexPhotography = 1;
 showSlidesPhotography(slideIndexPhotography);
 
