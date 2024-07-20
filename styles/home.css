@@ -1,8 +1,8 @@
 
 /* fonts */
 h1, h2, h3, h4, h5 {
-    font-family: "Shippori Mincho", serif;
-    font-weight: 400;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
     font-style: normal;
 }
 
@@ -23,15 +23,41 @@ html,
 body {
     background-color:#ffffff;
     margin: 0;
-    padding: 0;
+    padding: 20px 0;
 }
-
+header{
+    color:#000000;
+}
+.sitepurpose{
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin:auto;
+    padding:50px;
+}
+.sitepurpose h1{
+    text-align: center;
+    font-size: 25pt;
+    font-weight: 400;
+    padding:0;
+    margin:0;
+}
+.sitepurpose a{
+    text-decoration: none;
+    color: #E7A376;
+}
+.sitepurpose img{
+    width: 100px;
+    margin: auto;
+}
 /* CONTACTS HERE */
 .contacts {
     position: relative;
     width: 100%;
     overflow: hidden;
-    padding-top: 50px;
 }
 
 .scrolling-text {
@@ -43,7 +69,7 @@ body {
     display: block;
     white-space: nowrap;
     text-decoration: none;
-    color: #000000;
+    color: #393131;
     font-size: 10pt;
     text-align: center;
     padding: 0 50px;
@@ -57,7 +83,6 @@ main{
     align-items: center;
     align-content: center;
     margin:auto;
-
 }
 /* SECTION HERE */
 .frontpage {
@@ -151,7 +176,10 @@ main{
     text-decoration: overline;
 }
 
-
+footer p{
+    text-align: center;
+    font-size: 10pt;
+}
 /* ANIMATION KEYFRAMES HERE */
 /* for images */
 @keyframes scroll {
@@ -195,7 +223,25 @@ main{
 /* -----------------MOBIDLE VIEW-------------------------- */
 
 @media (max-width: 768px) {
+.sitepurpose{
+    max-width: 100%;
+}
+.sitepurpose h1{
+    font-size: 16pt;
+    line-height: 1.5em;
+}
+.sitepurpose a{
+    text-decoration: none;
+    color: #E7A376;
+}
+.sitepurpose img{
+    width: 100px;
+    margin: auto;
+}
    /* CONTACTS HERE */
+.contacts{
+    padding-top: 20px;
+}
 .contacts a {
     font-size: 8pt;
     letter-spacing: 1pt;
@@ -254,6 +300,9 @@ main{
     align-items: center;
     align-content: center;
     text-align: center; 
+}
+footer p{
+    font-size: 7pt;
 }
 }
 /* ---------------IPAD VIEW-------------------------- */
@@ -358,5 +407,7 @@ main{
 .center a:hover{
     text-decoration: overline;
 }
-
+footer p{
+    font-size: 9pt;
+}
 }
