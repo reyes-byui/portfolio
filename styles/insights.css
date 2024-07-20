@@ -278,7 +278,136 @@ header{
     .bigname h3{
         font-size: 14pt;
     }
-        
+/* form */
+
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin: 0;
+    padding:20px;
+    height: auto;
+}
+.copyright{
+    width: 75%;
+    height: auto;
+    align-content: center;
+    justify-content: center;
+    padding: 0;
+    margin:0;
+}
+
+.copyrighthere h4{
+    font-size: 5pt;
+    color: #ffffff;
+    padding: 0;
+    letter-spacing: 1pt;
+}
+.icons img{
+    width:15%;
+    padding: 5px;
+}
+
+.icons img:hover{
+    background-color:#717171;
+    border-radius: 15%;
+}
+.nickname{
+    width: 20%;
+    height: auto;
+    align-content: center;
+    padding: 0;
+    margin:0;
+}
+
+.nickname a{
+    font-size: 18pt;
+    color: #ffffff;
+    text-align: right;
+    text-decoration: none;;
+}
+}
+
+/* ---------------IPAD VIEW-------------------------- */
+/* IPAD VIEW */
+@media (min-width: 768px) and (max-width: 1024px){
+    /* header nav */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header{
+        display: flex;
+        max-width: 100%;
+        flex-direction: row;
+        padding:20px;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background-color: black;
+    }
+    
+    .homelogo {
+        width: 6%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .homelogo img{
+        width: 100%;
+        padding:10px;
+        align-items: center;
+    }
+    .homelogo img:hover{
+        background-color: #333;
+    }
+    .menunav {
+        width: 85%;
+        align-items: left;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .menunav .menu-toggle {
+        display: none;
+        padding: 10px 20px;
+        font-size: 16pt;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .menunav .menu-links {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .bigname {
+        width: 9%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .bigname a{
+        text-decoration: none;
+    }
+    
+    .menunav a{
+        text-decoration: none;
+        letter-spacing: 1.2pt;
+        padding: 0 30px;
+        text-align: center;
+    }
+    
+    .bigname h3{
+        font-size: 23pt;
+        text-align: center;
+    }
+
     /* FOOTER */
     .footer {
         display: flex;
