@@ -166,7 +166,7 @@ main{
 .contact-form label {
     display: block;
     margin-bottom: 5px;
-    color: #767676;
+    color: #dfdfdf;
     letter-spacing: 1pt;
 }
 .contact-form input, .contact-form textarea {
@@ -283,7 +283,6 @@ main{
 
     .menunav .menu-links a {
         padding: 10px 0;
-        border-top: 1px solid #333;
     }
 
     .menunav .menu-links.show {
@@ -372,7 +371,6 @@ main{
 
     .copyrighthere h4{
         font-size: 5pt;
-        color: #ffffff;
         padding: 0;
         letter-spacing: 1pt;
     }
@@ -382,7 +380,6 @@ main{
     }
 
     .icons img:hover{
-        background-color:#717171;
         border-radius: 15%;
     }
     .nickname{
@@ -535,7 +532,6 @@ main{
 
     .copyrighthere h4{
         font-size: 9pt;
-        color: #ffffff;
         padding-left: 20px;
         letter-spacing: 1pt;
         margin:0;
@@ -554,12 +550,10 @@ main{
 
     .nickname a{
         font-size: 30pt;
-        color: #ffffff;
         text-align: right;
         text-decoration: none;
     }
     .nickname a:hover{
-        color:#E7A376;
         text-align: right;
         text-decoration: overline;;
     }

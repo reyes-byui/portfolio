@@ -955,7 +955,6 @@ header{
 
     .menunav .menu-links a {
         padding: 10px 0;
-        border-top: 1px solid #333;
     }
 
     .menunav .menu-links.show {
@@ -1035,7 +1034,6 @@ header{
         display: flex;
         flex-direction: column;
         max-width: 100%;
-        background-color: black;
         padding-top: 20px;
         justify-content:center;
         justify-content: center;
@@ -1044,7 +1042,6 @@ header{
     
     .whatido h3 {
         font-size: 15pt;
-        color: #ffffff;
         padding: 10px;
         padding-bottom: 20px;
     }
@@ -1107,7 +1104,6 @@ header{
     }
     
     .window a:hover{
-        color:#E7A376;
         text-decoration: overline;
     }
     
@@ -1163,7 +1159,6 @@ header{
       }
       /* Next & previous buttons */
       .prevs, .nexts {
-        color: rgb(255, 255, 255);
         font-weight:lighter;
         font-size: 8pt;
       }
@@ -1238,7 +1233,6 @@ header{
     
     #filmingh4 h4 {
         font-size: 11pt;
-        color: black;
         line-height: 2;
         margin: 0;
     }
@@ -1255,14 +1249,12 @@ header{
     
     .windowd h5{
         font-size: 10pt;
-        color:#bbb;
         letter-spacing: 2pt;
         padding-bottom: 30px;
     }
     
     .windowd a{
         font-size: 7pt;
-        color:#ffffff;
         text-decoration: none;
         letter-spacing: 2pt;
         margin: 0;
@@ -1410,7 +1402,6 @@ header{
 
     .copyrighthere h4{
         font-size: 5pt;
-        color: #ffffff;
         padding: 0;
         letter-spacing: 1pt;
     }
@@ -1433,7 +1424,6 @@ header{
 
     .nickname a{
         font-size: 18pt;
-        color: #ffffff;
         text-align: right;
         text-decoration: none;;
     }
@@ -1458,7 +1448,6 @@ header{
         justify-content: center;
         align-items: center;
         align-content: center;
-        background-color: black;
     }
     
     .homelogo {
@@ -1525,7 +1514,6 @@ header{
         flex-direction: row;
         padding-top: 80px;
         margin: 0;
-        background-color: #ffffff;
         width: 100%;
         height: auto;
         overflow: hidden;
@@ -1538,7 +1526,6 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: black;
     }
     
     #videohere video {
@@ -1563,21 +1550,18 @@ header{
     }
     
     #mottohere h3{
-        color:#000000;
         font-size: 20pt;
         text-align: right;
         padding-bottom: 20px;
         padding-right: 0;
     }
     #mottohere h4{
-        color:#000000;
         font-size: 12pt;
         text-align: right;
         padding-bottom: 20px;
         padding-right: 0px;
     }
     #mottohere p{
-        color: #000000;
         font-size: 10pt;
         text-align: justify;
         padding: 0;
@@ -1588,7 +1572,6 @@ header{
     .whatido {
         display: flex;
         flex-direction: row;
-        background-color: black;
         padding-top: 150px;
         justify-content: center;
         align-items: flex-end;
@@ -1597,7 +1580,6 @@ header{
     
     .whatido h3 {
         font-size: 20pt;
-        color: #ffffff;
         padding: 20px;
         margin:0;
     }
@@ -1639,8 +1621,6 @@ header{
     
     /* Styling for accordion */
     .accordion {
-        background-color: #000000;
-        color: #ffffff;
         cursor: pointer;
         padding: 5px 20px;
         width: 100%;
@@ -1652,17 +1632,14 @@ header{
     
     .accordion:hover {
         text-decoration: overline;
-        color:#717171;
     }
     .actives{
-        color:#E7A376;
         text-decoration: none;
     }
     .panel {
         padding: 20px;
         display: none;
         overflow: hidden;
-        color: #A2A2A2;
         font-size: 12pt;
         text-align: justify;
     }
@@ -1675,7 +1652,6 @@ header{
         align-items: center;
         align-content: center;
         padding: 50px 0;
-        background-color: #ffffff;
     }
     
     .innovatehere{
@@ -1697,7 +1673,6 @@ header{
     }
     
     .innovatehere h4{
-        color:#333;
         font-size: 14pt;;
         text-align: center;
         padding:0;
@@ -1718,7 +1693,6 @@ header{
     
     .websites h5{
         font-size: 14pt;
-        color:#000000;
         letter-spacing: 2pt;
         text-align: center;
         padding: 30px;
@@ -1727,13 +1701,11 @@ header{
     
     .window h5{
         font-size: 11pt;
-        color:#717171;
         letter-spacing: 2pt;
     }
     
     .window a{
         font-size: 9pt;
-        color:#1a1a1a;
         text-decoration: none;
         letter-spacing: 2pt;
         margin: 0;
@@ -1741,7 +1713,6 @@ header{
     }
     
     .window a:hover{
-        color:#E7A376;
         text-decoration: overline;
     }
     
@@ -1792,7 +1763,6 @@ header{
         max-width: 100%;
         flex-direction: row;
         height: auto;
-        background-color: #000000;
         padding: 20px;
         justify-content: center;
         align-items: center;
@@ -1815,7 +1785,6 @@ header{
         writing-mode: vertical-rl;
         transform: rotate(180deg);
         font-size: 16pt;
-        color: #ffffff; 
         letter-spacing: 1pt;
         padding:0;
         margin:0;
@@ -1831,7 +1800,6 @@ header{
       
       #photography2 h3 {
         font-size: 30pt;
-        color: #717171; /* Gray text */
         text-align: right;
         letter-spacing: 1pt;
         padding: 0 30px;
