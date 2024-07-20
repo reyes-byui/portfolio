@@ -402,7 +402,7 @@ main{
 }
 
 /* IPAD VIEW*/
-@media (min-width: 768px) and (max-width: 2160px) and (orientation: landscape){
+@media (min-width: 768px) and (max-width: 1024px){
     * {
         margin: 0;
         padding: 0;
