@@ -124,10 +124,37 @@ header{
     color: #ffffff;
     text-align: center;
 }
+/* main */
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+.invite{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    padding-top: 150px;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #ffffff;
+}
+.invite h1{
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.invite img{
+    width: 100px;
+    border-radius: 50%;
+}
+
 /* contact form */
 .contact-form {
-    max-width: 600px;
-    margin: 50px;
+    max-width: 50%;
+    width: 100%;
+    margin: auto;
     padding: 50px;
     padding-top: 150px;
     background-color:#1a1a1a;
@@ -139,8 +166,8 @@ header{
 .contact-form label {
     display: block;
     margin-bottom: 5px;
-    font-weight: bold;
-    color: #ffffff;
+    color: #767676;
+    letter-spacing: 1pt;
 }
 .contact-form input, .contact-form textarea {
     width: 100%;
@@ -165,14 +192,13 @@ header{
 .contact-form button:hover {
     background-color:#E7A376;
 }
-
-/* FOOTER */
 /* FOOTER */
 .footer {
     display: flex;
     max-width: 100%;
     height: auto;
     flex-direction: row;
+    background-color: #000;
 }
 
 .copyright{
@@ -278,77 +304,112 @@ header{
     .bigname h3{
         font-size: 14pt;
     }
-/* form */
+/* main */
+    main{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .invite{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        padding-top: 70px;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .invite h1{
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 18pt;
+    }
+    .invite img{
+        width: 100px;
+        border-radius: 50%;
+    }
 
-/* footer */
-.footer {
-    display: flex;
-    flex-direction: row;
-    max-width: 100%;
-    margin: 0;
-    padding:20px;
-    height: auto;
-}
-.copyright{
-    width: 75%;
-    height: auto;
-    align-content: center;
-    justify-content: center;
-    padding: 0;
-    margin:0;
+    /* contact form */
+    .contact-form {
+        max-width: 100%;
+        margin: auto;
+        padding: 30px 20px;
+    }
+    .contact-form h2 {
+        margin-bottom: 20px;
+    }
+    .contact-form label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .contact-form input, .contact-form textarea {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    .contact-form button {
+        font-size: 12px;
+    }
+    /* footer */
+    .footer {
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        margin: 0;
+        padding:20px;
+        height: auto;
+    }
+    .copyright{
+        width: 75%;
+        height: auto;
+        align-content: center;
+        justify-content: center;
+        padding: 0;
+        margin:0;
+    }
+
+    .copyrighthere h4{
+        font-size: 5pt;
+        color: #ffffff;
+        padding: 0;
+        letter-spacing: 1pt;
+    }
+    .icons img{
+        width:15%;
+        padding: 5px;
+    }
+
+    .icons img:hover{
+        background-color:#717171;
+        border-radius: 15%;
+    }
+    .nickname{
+        width: 20%;
+        height: auto;
+        align-content: center;
+        padding: 0;
+        margin:0;
+    }
+
+    .nickname a{
+        font-size: 18pt;
+        color: #ffffff;
+        text-align: right;
+        text-decoration: none;;
+    }
 }
 
-.copyrighthere h4{
-    font-size: 5pt;
-    color: #ffffff;
-    padding: 0;
-    letter-spacing: 1pt;
-}
-.icons img{
-    width:15%;
-    padding: 5px;
-}
-
-.icons img:hover{
-    background-color:#717171;
-    border-radius: 15%;
-}
-.nickname{
-    width: 20%;
-    height: auto;
-    align-content: center;
-    padding: 0;
-    margin:0;
-}
-
-.nickname a{
-    font-size: 18pt;
-    color: #ffffff;
-    text-align: right;
-    text-decoration: none;;
-}
-}
-
-/* ---------------IPAD VIEW-------------------------- */
-/* IPAD VIEW */
+/* IPAD VIEW*/
 @media (min-width: 768px) and (max-width: 1024px){
-    /* header nav */
-    
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-    }
+        }
     header{
-        display: flex;
-        max-width: 100%;
-        flex-direction: row;
         padding:20px;
-        margin: 0;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        background-color: black;
     }
     
     .homelogo {
@@ -362,9 +423,6 @@ header{
         width: 100%;
         padding:10px;
         align-items: center;
-    }
-    .homelogo img:hover{
-        background-color: #333;
     }
     .menunav {
         width: 85%;
@@ -407,7 +465,57 @@ header{
         font-size: 23pt;
         text-align: center;
     }
+    /* BODY */
+    /* main */
+    main{
+        display: flex;
+        flex-direction: row;
+        margin: 30px;
+    }
+    .invite{
+        display: flex;
+        flex-direction: column;
+        max-width: 40%;
+        padding-top: 100px;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .invite h1{
+        font-size: 20pt;
+    }
+    .invite img{
+        width: 100px;
+        border-radius: 50%;
+    }
 
+    /* contact form */
+    .contact-form {
+        max-width: 60%;
+        width: 100%;
+        margin: auto;
+        padding: 20px;
+        padding-top: 150px;
+    }
+    .contact-form h2 {
+        margin-bottom: 30px;
+    }
+    .contact-form label {
+        display: block;
+        margin-bottom: 5px;
+        letter-spacing: 1pt;
+    }
+    .contact-form input, .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .contact-form button {
+        font-size: 14px;
+        letter-spacing: 1pt;
+    }
     /* FOOTER */
     .footer {
         display: flex;
@@ -415,7 +523,7 @@ header{
         height: auto;
         flex-direction: row;
     }
-    
+
     .copyright{
         width: 60%;
         height: auto;
@@ -424,7 +532,7 @@ header{
         padding: 30px;
         margin:0;
     }
-    
+
     .copyrighthere h4{
         font-size: 9pt;
         color: #ffffff;
@@ -436,14 +544,14 @@ header{
         width: 12%;
         padding: 0 10px;
     }
-    
+
     .nickname{
         width: 40%;
         height: auto;
         align-content: center;
         padding: 0 40px;
     }
-    
+
     .nickname a{
         font-size: 30pt;
         color: #ffffff;
@@ -455,5 +563,4 @@ header{
         text-align: right;
         text-decoration: overline;;
     }
-    
 }
