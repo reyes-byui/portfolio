@@ -331,7 +331,7 @@ header{
 }
 
 .window h5{
-    font-size: 13pt;
+    font-size: 14pt;
     color:#717171;
     letter-spacing: 2pt;
 }
@@ -1441,7 +1441,7 @@ header{
     
 /* ---------------IPAD VIEW-------------------------- */
 /* IPAD VIEW */
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 2160px) and (orientation: landscape) {
     /* header nav */
     
     * {
@@ -1726,7 +1726,7 @@ header{
     }
     
     .window h5{
-        font-size: 12pt;
+        font-size: 11pt;
         color:#717171;
         letter-spacing: 2pt;
     }
