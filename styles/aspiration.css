@@ -498,60 +498,54 @@ header{
         box-sizing: border-box;
     }
     header{
-        
         display: flex;
         max-width: 100%;
         flex-direction: row;
-        padding:30px;
+        padding:20px;
         margin: 0;
         justify-content: center;
         align-items: center;
         align-content: center;
         background-color: black;
     }
+
     .homelogo {
-        width: 10%;
+        width: 6%;
         justify-content: center;
         align-items: center;
         align-content: center;
     }
+
     .homelogo img{
-        width: 70%;
-        padding: 20px;
+        width: 100%;
+        padding:10px;
         align-items: center;
     }
     .homelogo img:hover{
         background-color: #333;
     }
     .menunav {
-        width: 70%;
+        width: 85%;
         align-items: left;
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
     }
-    
+
     .menunav .menu-toggle {
         display: none;
-        background-color: #000;
-        color: #A2A2A2;
         padding: 10px 20px;
-        font-size: 16px;
+        font-size: 16pt;
         border: none;
         cursor: pointer;
     }
-    
+
     .menunav .menu-links {
         display: flex;
         flex-direction: row;
     }
-    
-    .menunav a:hover {
-        text-decoration: overline;
-        color:#E7A376;
-    }
-    
+
     .bigname {
-        width: 20%;
+        width: 9%;
         justify-content: center;
         align-items: center;
         align-content: center;
@@ -559,18 +553,16 @@ header{
     .bigname a{
         text-decoration: none;
     }
-    
+
     .menunav a{
         text-decoration: none;
-        color:#A2A2A2;
         letter-spacing: 1.2pt;
         padding: 0 30px;
         text-align: center;
     }
-    
+
     .bigname h3{
-        font-size: 25pt;
-        color: #ffffff;
+        font-size: 23pt;
         text-align: center;
     }
     .aspirebanner{
@@ -726,6 +718,5 @@ header{
         color:#E7A376;
         text-align: right;
         text-decoration: overline;;
-    }
-    
+    } 
 }
