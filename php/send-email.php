@@ -32,3 +32,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Invalid request method.";
 }
 ?>
+
+
+<!-- validate -->
+
+<?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
+
+    echo "Email sent successfully!";
+} else {
+    echo "Invalid request method.";
+}
+?>
