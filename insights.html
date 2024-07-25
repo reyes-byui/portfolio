@@ -46,28 +46,18 @@
             </div>
             <div class="contact-form">
                 <h2>Message Me:</h2>
-                <form action="send-email.php" method="post">
+                <form action="https://formspree.io/f/{your_form_id}" method="post" id="contactForm">
                     <label for="name">Full Name</label>
                     <input type="text" id="name" name="name" required>
-        
                     <label for="email">Email Address</label>
                     <input type="email" id="email" name="email" required>
-        
                     <label for="subject">Subject</label>
                     <input type="text" id="subject" name="subject" required>
-        
                     <label for="message">Message Here</label>
                     <textarea id="message" name="message" rows="5" required></textarea>
-        
                     <button type="submit">Send Message</button>
                 </form>
             </div>
-
-            <form action="send-email.php" method="post">
-                <input type="text" name="test" value="test">
-                <button type="submit">Submit</button>
-            </form>
-            
         </main>
 
         <footer class="footer">
