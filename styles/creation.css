@@ -59,9 +59,11 @@ header{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    
 }
 .bigname a{
     text-decoration: none;
+    width: 100%;
 }
 .homelogo {
     width: 20%;
@@ -1470,7 +1472,7 @@ header{
         background-color: #333;
     }
     .menunav {
-        width: 85%;
+        width: 75%;
         align-items: left;
         display: flex;
         justify-content: space-between;
@@ -1507,7 +1509,7 @@ header{
     }
     
     .bigname h3{
-        font-size: 23pt;
+        font-size: 20pt;
         text-align: center;
     }
     
