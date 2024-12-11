@@ -55,6 +55,11 @@ header{
     width: 100%;
     z-index: 1000;
 }
+.bigname{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
 .bigname a{
     text-decoration: none;
 }
