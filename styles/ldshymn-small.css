@@ -1,4 +1,7 @@
 @media (max-width: 768px){
+body p{
+    font-size: medium;
+}
 .post-body{
     width: 100%;
     padding: 20px;
