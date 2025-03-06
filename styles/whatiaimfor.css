@@ -1,0 +1,314 @@
+/* SECTIONS START HERE */
+.aspirebanner{
+    display: flex;
+    max-width: 100%;
+    margin: 0;
+    padding-top: 0;
+}
+
+.aspirebanner img{
+    aspect-ratio: 10 / 4;
+    width: 100%;
+    object-fit: cover;
+    margin:0;
+    padding:0;
+}
+
+.objectives {
+    padding: 50px 100px;
+}
+.objectives h4{
+    color:#A2A2A2;
+    font-size: 22pt;
+    padding-bottom: 30px;
+}
+
+.objectives p{
+    color: white;
+    font-size: 10pt;
+    text-align: justify;
+}
+/* LEFT LIFESTYLE WINDOW */
+.lifestyle {
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    padding: 50px 100px;
+    margin:0;
+    background-color: #000;
+    align-items: center;
+    justify-content: center;
+}
+.lifestylewindow{
+    width: 60%;
+    object-fit: cover;
+}
+.lifestyletext{
+    width: 40%;
+    
+}
+.lifestylewindow img{
+    width: 40%;
+    border-top-right-radius: 45%;
+    border-top-left-radius: 45%;
+    object-fit: cover;
+    aspect-ratio: 4 / 5;
+}
+.lifestyletext h4{
+    color:#A2A2A2;
+    font-size: 25pt;
+    text-align: right;
+    padding-bottom: 30px;
+}
+.lifestyletext p{
+    color: white;
+    font-size: 10pt;
+    text-align: justify;
+    padding-left: 50px;
+}
+
+/* RIGHT LIFESTYLE WINDOW */
+.lifestyle2{
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    padding: 50px 100px;
+    margin:0;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.lifestyletext2{
+    width: 40%;
+    align-content: left;
+}
+.lifestylewindow2 {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    object-fit: cover;
+}
+
+.lifestylewindow2 img {
+    width: 40%;
+    border-top-right-radius: 45%;
+    border-top-left-radius: 45%;
+    object-fit: cover;
+    aspect-ratio: 4 / 5;
+}
+
+.lifestyletext2 h4{
+    color:#000;
+    font-size: 25pt;
+    text-align: left;
+    padding-bottom: 30px;
+}
+.lifestyletext2 p{
+    color:#000;
+    font-size: 10pt;
+    text-align: justify;
+    padding-right: 50px;
+}
+/* ---------------------------------------------- */
+
+/* MOBILE VIEW STARS HERE*/
+@media (max-width: 768px) {
+    /* main body */   
+    .aspirebanner img{
+        aspect-ratio: 10 / 7;
+    }
+    .objectives {
+        padding: 20px;
+    }
+    .objectives h4{    
+        font-size: 16pt;
+        padding: 30px;
+    }
+    .objectives p{
+        font-size: 10pt;
+        padding: 30px 30px;
+    }
+    /* LEFT LIFESTYLE WINDOW */
+    .lifestyle {
+        max-width: 100%;
+        flex-direction: column;
+        padding: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    .lifestylewindow{
+        width: 100%;
+        position: relative;
+    }
+    .lifestyletext{
+        width: 100%;
+    }
+    .lifestylewindow img{
+        width: 100%;
+        height: auto;
+        border-top-right-radius: 45%;
+        border-top-left-radius: 45%;
+        object-fit: cover;
+        aspect-ratio: 4 / 4;
+        margin:0;
+        padding-bottom:20px;
+        
+    }
+    .lifestyletext h4{
+        font-size: 20pt;
+        text-align: center;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .lifestyletext p{
+        font-size: 10pt;
+        padding-left: 0;
+    }
+    
+    /* RIGHT LIFESTYLE WINDOW */
+    .lifestyle2{
+        flex-direction: column;
+        padding: 50px;
+    }
+    .lifestyletext2{
+        width: 100%;
+        align-content: left;
+    }
+    .lifestylewindow2 {
+        width: 100%;
+        display: flex;
+    }
+    
+    .lifestylewindow2 img {
+        width: 100%;
+        border-top-right-radius: 45%;
+        border-top-left-radius: 45%;
+        aspect-ratio: 4 / 4;
+        margin:0;
+        padding-bottom:20px;
+    }
+    
+    .lifestyletext2 h4{
+        font-size: 20pt;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .lifestyletext2 p{
+        font-size: 10pt;
+        padding-right: 0px;
+        padding-bottom:20px;
+    }
+}
+    /* END OF MOBILE VIEW */
+
+/* ---------------IPAD VIEW-------------------------- */
+/* IPAD VIEW */
+@media (min-width: 768px) and (max-width: 1024px){
+    /* header nav */
+    .aspirebanner{
+        padding-top: 80px;
+    }
+    .aspirebanner img{
+        aspect-ratio: 10 / 4;
+        width: 100%;
+        object-fit: cover;
+        margin:0;
+        padding:0;
+    }
+    
+    .objectives {
+        padding: 50px 100px;
+    }
+    .objectives h4{
+        color:#A2A2A2;
+        font-size: 22pt;
+        padding-bottom: 30px;
+    }
+    
+    .objectives p{
+        color: white;
+        font-size: 10pt;
+        text-align: justify;
+    }
+    /* LEFT LIFESTYLE WINDOW */
+    .lifestyle {
+        display: flex;
+        max-width: 100%;
+        flex-direction: row;
+        padding: 100px 100px;
+        margin:0;
+        background-color: #000;
+        align-items: center;
+        justify-content: center;
+    }
+    .lifestylewindow{
+        width: 50%;
+        object-fit: cover;
+    }
+    .lifestyletext{
+        width: 50%;
+        
+    }
+    .lifestylewindow img{
+        width: 80%;
+        border-top-right-radius: 45%;
+        border-top-left-radius: 45%;
+        object-fit: cover;
+        aspect-ratio: 4 / 5;
+    }
+    .lifestyletext h4{
+        color:#A2A2A2;
+        font-size: 20pt;
+        text-align: right;
+        padding-bottom: 30px;
+    }
+    .lifestyletext p{
+        color: white;
+        font-size: 10pt;
+        text-align: justify;
+        padding-left: 50px;
+    }
+    
+    /* RIGHT LIFESTYLE WINDOW */
+    .lifestyle2{
+        display: flex;
+        max-width: 100%;
+        flex-direction: row;
+        padding: 100px 100px;
+        margin:0;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+    }
+    .lifestyletext2{
+        width: 50%;
+        align-content: left;
+    }
+    .lifestylewindow2 {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        object-fit: cover;
+    }
+    
+    .lifestylewindow2 img {
+        width: 80%;
+        border-top-right-radius: 45%;
+        border-top-left-radius: 45%;
+        object-fit: cover;
+        aspect-ratio: 4 / 5;
+    }
+    
+    .lifestyletext2 h4{
+        color:#000;
+        font-size: 20pt;
+        text-align: left;
+        padding-bottom: 30px;
+    }
+    .lifestyletext2 p{
+        color:#000;
+        font-size: 10pt;
+        text-align: justify;
+        padding-right: 50px;
+    }
+}
