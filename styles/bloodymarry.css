@@ -119,7 +119,12 @@ header{
     text-align: right;
     text-decoration: overline;;
 }
-
+.contact img{
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 40px;;
+}
 /* MOBILE + VIEW STARTS HERE-----------------------------*/
 @media (max-width: 768px)
     {
