@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.46 283.46">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffffff;
+        font-family: Harrington, Harrington;
+        font-size: 149.24px;
+      }
+
+      .cls-2 {
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #ffffff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        fill: #ffffff;
+        stroke-width: 1pt;
+      }
+
+      .cls-3 {
+        stroke-width: 9px;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(185.2 227.31) rotate(-90)"><tspan x="0" y="0">R</tspan></text>
+  <text class="cls-1" transform="translate(92.78 52.37) rotate(90)"><tspan x="0" y="0">R</tspan></text>
+  <polygon class="cls-4" points="161.68 95.46 164.37 103.73 173.06 103.73 166.03 108.84 168.71 117.1 161.68 111.99 154.65 117.1 157.34 108.84 150.31 103.73 159 103.73 161.68 95.46"/>
+  <circle class="cls-2" cx="141.31" cy="141.83" r="120.81"/>
+  <circle class="cls-3" cx="142.05" cy="142.56" r="104.54"/>
+</svg>

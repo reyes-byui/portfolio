@@ -1,0 +1,60 @@
+@media (max-width: 768px){
+body p{
+    font-size: medium;
+}
+.post-body{
+    width: 100%;
+    padding: 20px;
+}
+
+.songbooks{
+    flex-direction: column;
+    width: 100%;
+}
+
+.songbooks img{
+    width: 250px;
+}
+.post-image img{
+    aspect-ratio: 5 / 3;
+}
+
+.quote {
+    width: 100%;
+    font-size: medium;
+}
+
+.references{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin:0;
+    padding:20px;
+    box-sizing: border-box;
+}
+.references h6,
+.references p{
+    text-align: left;
+    font-size: 9pt;
+    padding: 10px;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    padding: 40px;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
+}

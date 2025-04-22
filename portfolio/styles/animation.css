@@ -1,0 +1,50 @@
+/* ANIMATION KEYFRAMES */
+/* for videos and images ---------------------------------- */
+.fade-in {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
+
+/* for h3 titles -------------------------------------------- */
+
+.title {
+    opacity: 0; 
+}
+
+.title-animation.visible {
+    animation: slideInFromLeft 1s ease-in forwards;
+    opacity: 1; 
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-30%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* for h4 titles */
+.h4 {
+    opacity: 0;
+}
+.h4-animation.visible{
+    animation: slideInFromRight 1s ease-in forwards;
+    opacity: 1;
+}
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(30%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+/* end of animation -------------------------------------*/

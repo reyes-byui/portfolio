@@ -1,0 +1,135 @@
+main {
+    color:white;
+    padding-top: 20px;
+    width: 100%;
+    margin:0;
+}
+.post-body{
+    width: 60%;
+    margin: 0 auto;
+}
+main h1, h2, h4, h5, h6{
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+}
+.songbooks{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    column-gap: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+#sacrament, #children{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.songbooks img{
+    width: 150px;
+    padding: 20px 0;
+}
+.link {
+    color: white;
+    text-decoration: none;
+}
+.url {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    line-height: 200%;;
+    color:rgb(255, 221, 0);
+    text-decoration: none;
+}
+.highlight{
+    font-weight: 500;
+}
+.post-image{
+    text-align: center;
+}
+.post-image h1{
+    text-align: center;
+    font-size: xx-large;
+}
+.post-date{
+    text-align: center;
+    font-size: small;
+}
+.post-image img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    aspect-ratio: 6 / 2;
+    object-fit: cover;
+}
+main h2{
+    font-size: medium;
+    text-align: center;
+}
+.music {
+    text-decoration: none;
+    color:rgb(255, 221, 0);
+    font-family: "Open Sans", sans-serif;
+}
+.post-intro{
+    text-align: justify;
+    padding: 20px 0;
+}
+.quote {
+    text-align: center;
+    padding: 20px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+.copy p{
+    color: white;
+    padding:0;
+    margin:0;
+    font-size: small;
+}
+.references{
+    padding: 20px;
+    background-color: black;
+    width: 60%;
+    margin: 0 auto;
+}
+.references h6, p{
+    text-align: left;
+    font-size: small;
+}
+footer {
+    display: grid;
+    grid-template-columns: 20% 25% 25% 30%; 
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    color: antiquewhite;
+    margin: 0;
+    text-align: left;
+}
+#logo h3{
+    color: white;
+    font-size: 25pt;
+}
+footer p{
+    font-size: small;
+}
+.copyright{
+    padding-right: 0;
+}
+.social-icons{
+    display: flex;
+    flex-direction: row;
+}
+.social-icons img{
+    padding: 10px;
+    width: 50px;
+}
+.social-icons img:hover{
+    transform: scale(1.2);
+}

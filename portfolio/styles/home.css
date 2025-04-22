@@ -1,0 +1,413 @@
+
+/* fonts */
+h1, h2, h3, h4, h5 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+  /* colors */
+:root {
+    --primary-color: #1a1a1a;
+    --secondary-color:#ffffff;
+    --accent1-color: #A2A2A2;
+    --accent2-color: #E7A376;
+}
+
+html,
+body {
+    background-color:#ffffff;
+    margin: 0;
+    padding: 20px 0;
+}
+header{
+    color:#000000;
+}
+.sitepurpose{
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin:auto;
+    padding:50px;
+}
+.sitepurpose h1{
+    text-align: center;
+    font-size: 25pt;
+    font-weight: 400;
+    padding:0;
+    margin:0;
+}
+.sitepurpose a{
+    text-decoration: none;
+    color: #8a5633;
+}
+.sitepurpose img{
+    width: 100px;
+    margin: auto;
+}
+/* CONTACTS HERE */
+.contacts {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.scrolling-text {
+    display: flex;
+    animation: scroll 18s linear infinite;
+}
+
+.contacts a {
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #393131;
+    font-size: 10pt;
+    text-align: center;
+    padding: 0 50px;
+}
+.contacts a:hover {
+    text-decoration: overline;
+    color:#A2A2A2;
+}
+main{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin:auto;
+}
+/* SECTION HERE */
+.frontpage {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    padding: 50px;
+}
+
+.left, .right {
+    width: 10%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.left h3, .right h3 {
+    writing-mode:vertical-lr;
+    font-size: 25pt;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 1pt;
+}   
+
+    
+.right h3 {
+    transform: rotate(0deg);
+}
+
+/* CENTER */
+
+.center {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center; 
+    width: 40%;
+    text-align: center;
+    padding:0;
+}
+
+.center h3 {
+    font-size: 25pt;
+    color: #000000;
+    margin: 0;
+    letter-spacing: 1pt;
+    animation: slideInFromTop 3s ease-in-out;
+    padding-bottom: 20px;
+}
+
+.center img {
+    max-width: 100%;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    border-top-right-radius: 45%;
+    border-top-left-radius: 45%;
+    object-fit: cover;
+    aspect-ratio: 4 / 5;
+    animation: fadeIn 1s ease-in;
+    padding: 1px;
+}
+
+
+.center h4{
+    font-size: 60pt;
+    color: #000000;
+    margin: 0;
+    animation: slideInFromBottom 1s ease-in;
+}
+
+.center a{
+    font-size: 12pt;
+    color:#000000;
+    text-decoration: none;
+    display: block; 
+    margin: 0 auto; 
+    width: fit-content;
+}
+
+.center a:hover{
+    color:#A2A2A2;
+    text-decoration: overline;
+}
+
+footer p{
+    text-align: center;
+    font-size: 10pt;
+}
+/* ANIMATION KEYFRAMES HERE */
+/* for images */
+@keyframes scroll {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start with opacity 0 (fully transparent) */
+    }
+    to {
+        opacity: 0.7; /* End with opacity 1 (fully visible) */
+    }
+}
+
+@keyframes slideInFromTop {
+    from {
+        transform: translateY(-100%); /* Start from above the viewport */
+    }
+    to {
+        transform: translateY(0); /* End at the original position */
+    }
+}
+
+@keyframes slideInFromBottom {
+    from {
+        transform: translateY(100%); /* Start from below the viewport */
+    }
+    to {
+        transform: translateY(0); /* End at the original position */
+    }
+}
+
+
+/* -----------------MOBIDLE VIEW-------------------------- */
+
+@media (max-width: 768px) {
+.sitepurpose{
+    max-width: 100%;
+}
+.sitepurpose h1{
+    font-size: 16pt;
+    line-height: 1.5em;
+}
+.sitepurpose a{
+    text-decoration: none;
+    color: #E7A376;
+}
+.sitepurpose img{
+    width: 100px;
+    margin: auto;
+}
+   /* CONTACTS HERE */
+.contacts{
+    padding-top: 20px;
+}
+.contacts a {
+    font-size: 8pt;
+    letter-spacing: 1pt;
+    padding-top: 20px;
+}
+
+/* SECTION HERE */
+.frontpage {
+    padding: 50px;
+}
+.left, .right {
+    width: 5%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.left h3, .right h3 {
+    font-size: 14pt;
+    letter-spacing: 2pt;
+}   
+/* CENTER */
+
+.center {
+    width: 80%;
+}
+
+.center h3 {
+    font-size: 10pt;
+    margin: auto;
+    letter-spacing: 1pt;
+    animation: slideInFromTop 3s ease-in-out;
+}
+
+.center img {
+    padding: 1px;
+    margin: 0;
+    aspect-ratio: 4 / 6;
+    font-size: 12pt;
+    color:#000000;
+    text-decoration: none;
+    display: block; 
+    margin: 0 auto; 
+    width: fit-content;
+}
+
+.center h4{
+    font-size: 25pt;
+}
+
+.center a{
+    font-size: 9pt;
+    letter-spacing: 1pt;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center; 
+}
+footer p{
+    font-size: 7pt;
+}
+}
+/* ---------------IPAD VIEW-------------------------- */
+/* IPAD VIEW */
+@media (min-width: 768px) and (max-width: 1024px){
+    /* CONTACTS HERE */
+.contacts {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.scrolling-text {
+    display: flex;
+    animation: scroll 18s linear infinite;
+}
+
+.contacts a {
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 10pt;
+    text-align: center;
+    padding: 0 50px;
+}
+.contacts a:hover {
+    text-decoration: overline;
+}
+/* SECTION HERE */
+
+.left, .right {
+    width: 20%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.left h3, .right h3 {
+    writing-mode:vertical-lr;
+    font-size: 20pt;
+    text-align: center;
+    letter-spacing: 1pt;
+}   
+
+    
+.right h3 {
+    transform: rotate(0deg);
+}
+
+/* CENTER */
+
+.center {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center; 
+    width: 60%;
+    text-align: center;
+    padding:0;
+}
+
+.center h3 {
+    font-size: 20pt;
+    margin: 0;
+    letter-spacing: 1pt;
+    animation: slideInFromTop 3s ease-in-out;
+    padding-bottom: 20px;
+}
+
+.center img {
+    max-width: 100%;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    border-top-right-radius: 45%;
+    border-top-left-radius: 45%;
+    object-fit: cover;
+    aspect-ratio: 4 / 5;
+    animation: fadeIn 1s ease-in;
+    padding: 1px;
+}
+
+
+.center h4{
+    font-size: 50pt;
+    margin: 0;
+    animation: slideInFromBottom 1s ease-in;
+}
+
+.center a{
+    font-size: 12pt;
+    text-decoration: none;
+    display: block; 
+    margin: 0 auto; 
+    width: fit-content;
+}
+
+.center a:hover{
+    text-decoration: overline;
+}
+footer p{
+    font-size: 9pt;
+}
+}
