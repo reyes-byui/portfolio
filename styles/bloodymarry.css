@@ -123,7 +123,8 @@ header{
     position: fixed;
     top: 0;
     right: 0;
-    padding: 40px;;
+    width: 8%;
+    padding: 20px;
 }
 /* MOBILE + VIEW STARTS HERE-----------------------------*/
 @media (max-width: 768px)
@@ -182,6 +183,13 @@ header{
         text-align: right;
         text-decoration: none;;
     }
+    .contact img{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 20%;
+        padding: 20px;
+    }
     }
 /* ---------------IPAD VIEW-------------------------- */
 /* IPAD VIEW */
@@ -191,5 +199,11 @@ header{
         padding: 0;
         box-sizing: border-box;
     }
-
+    .contact img{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 8%;
+        padding: 20px;
+    }
 }
