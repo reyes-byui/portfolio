@@ -134,12 +134,11 @@ main{
     display: flex;
     flex-direction: column;
     max-width: 50%;
-    padding-top: 150px;
-    margin: 50px;
     justify-content: center;
     align-items: center;
     align-content: center;
     color: #ffffff;
+    position: fixed; /* Changed from fixed to relative */
 }
 .invite h1{
     padding-bottom: 20px;
@@ -156,8 +155,10 @@ main{
     width: 100%;
     margin: auto;
     padding: 50px;
-    /* padding-top: 150px; */
-    background-color:#1a1a1a;
+    background-color: #1a1a1a;
+    margin-left: auto; /* Ensures alignment to the right */
+    margin-right: 0; /* Explicitly sets right margin to 0 */
+    position: relative; /* Ensures it doesn't overlap with .invite */
 }
 .contact-form h2 {
     margin-bottom: 20px;
@@ -318,6 +319,7 @@ main{
         justify-content: center;
         align-items: center;
         align-content: center;
+        position: relative;
     }
     .invite h1{
         padding-bottom: 20px;
@@ -478,6 +480,7 @@ main{
         justify-content: center;
         align-items: center;
         align-content: center;
+        position: relative;
     }
     .invite h1{
         font-size: 20pt;
